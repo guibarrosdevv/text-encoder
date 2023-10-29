@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <title>Text Encoder</title>
+</head>
+
+<div class="card">
+    <header class="card-header px-5">
+        <div class="div-header">
+       <h1 class="tittle-header bg-transparent">Text Encoder</h1>
+       <a href="https://github.com/guibarross/text-encoder/tree/main" target="_blank" class="link-header"><h5 class="link-header bg-transparent pt-3">Acesse o código</h5></a>
+    </div>
+    </header>
+
+    <div class="card-body row justify-content-center pt-5 pb-3 m-0">
+        <div class="pt-5 mx-5">
+            <textarea class="text-area p-3" id="entrada-de-texto" cols="35" rows="10"
+                placeholder="Digite seu texto, apenas letras sem acento."></textarea>
+            <div class="py-3 text-center">
+                <button class="btn btn-primary btn-sm px-3 mr-3 border-0" id="codificar">Codificar</button>
+                <button class="btn btn-light btn-sm px-3 border-0" id="limpar-campos">Limpar Campos</button>
+            </div>
+        </div>
+
+        <div class="py-5 mx-5">
+            <div class="d-flex justify-content-center">
+            <img class="position-absolute bg-transparent pt-5" id="img-textarea" src="./assets/boneco.png" alt="">
+            <textarea class="mensagem p-3" cols="35" rows="10" id="saida-de-texto"></textarea>
+        </div>
+                <div class="py-4 text-center">
+                    <button class="btn btn-primary btn-sm px-3 mr-3 border-0" id="copiar">Copiar</button>
+                    <button class="btn btn-light btn-sm px-3 border-0" id="descodificar">Descodificar</button>
+                </div>
+        </div>
+    </div>
+    <header class="card-footer d-flex justify-content-center">
+       
+            <div class="bg-transparent mr-2 py-3">
+                <div class="d-flex flex-column text-center bg-transparent">
+            <a href="https://www.linkedin.com/in/guilherme-barross/" target="_blank"><img class="icons-footer" class="bg-transparent" src="./assets/linkedin.svg" alt=""></i></a>
+                <small class="bg-transparent">Linkedin</small>
+            </div>
+            </div>
+
+            <div class="bg-transparent ml-2 py-3">
+                <div class="d-flex flex-column text-center bg-transparent">
+            <a href="https://github.com/guibarross" target="_blank"><img class="icons-footer" class="bg-transparent" src="./assets/github.svg" alt=""></i></a>
+                <small class="bg-transparent">GitHub</small>
+            </div>
+            </div>
+    </header>
+    <script src="script.js"></script>
+</div>
+
+</html>
