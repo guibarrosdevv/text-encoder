@@ -5,9 +5,6 @@
 ## Descrição
 O "Text Encoder" é um projeto que permite aos usuários codificar e descodificar mensagens de texto. Os usuários digitam um texto, pressionam o botão "Codificar" e o texto codificado é exibido. Se desejarem, os usuários podem pressionar o botão "Descodificar" para ver a mensagem original.
 
-## Demonstração
-Veja o projeto em ação: https://guibarross.github.io/text-encoder/.
-
 ## Requisitos
 - Navegadores com suporte a JavaScript.
 
